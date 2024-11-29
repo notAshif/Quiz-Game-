@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+
+    border-radius: 20px;
+
+    border: none;
+    width: 380px;
+    padding: 20px;
+
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section h1{
+    display: flex;
+    float: left;
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.questions {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+
+    margin-top: 20px;
+}
+
+.questions h2{
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.questions span{
+    color: #888;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.steps{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.step{
+    font-size: 18px;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+}
+
+.step span{
+    color: #888;
+}
+
+.option_container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.option_container p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+    text-align: left;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #9ddc86;
+    transition: .5s;
+}
+
+.none__Button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+    margin-top: 8px;
+
+    color: #888;
+    background-color: #dad9d9;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.next_button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+    margin-top: 5rem;
+
+    color: #ffffff;
+    background-color: #000000;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.button.correct {
+    background-color: #28a745;
+    color: white;
+}
+
+.button.wrong {
+    background-color: #dc3545;
+    color: white;
+}
